@@ -16,10 +16,11 @@ body {
 }
 
 .main {
-    max-width: 832px;
+    max-width: 800px;
     padding: 16px;
     margin: auto;
     background-color: rgb(43, 42, 43);
+    box-shadow: 0px 0px 24px 6px rgb(20, 20, 20);
 }
 
 .logo-and-tagline {
@@ -58,6 +59,30 @@ body {
     color: rgb(211, 211, 211);
 }
 
+.navbar #navhome a {
+    color: #FFFF55;
+}
+
+.navbar #navdownload a {
+    color: #FF55FF;
+}
+
+.navbar #navdocs a {
+    color: rgb(0, 255, 255);
+}
+
+.navbar #navgit a {
+    color: #FF5555;
+}
+
+.navbar #navdonate a {
+    color: #55FF55;
+}
+
+.navbar #navcontact a {
+    color: #5555FF;
+}
+
 .footer {
     text-align: center;
     color: rgb(138, 138, 138);
@@ -65,4 +90,5 @@ body {
 
 hr {
     border-style: solid;
+    border-bottom: 1px;
 }
