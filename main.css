@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "SourceSansProRegular";
+    src: url('./SourceSansPro-Regular.ttf.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: rgb(60, 63, 65);
+    color: rgb(211, 211, 211);
+}
+
+* {
+    font-family: 'SourceSansProRegular';
+}
+
+.main {
+    max-width: 800px;
+    padding: 16px;
+    margin: auto;
+    background-color: rgb(43, 42, 43);
+    box-shadow: 0px 0px 24px 6px rgb(20, 20, 20);
+}
+
+.logo-and-tagline {
+    line-height: 1.2em;
+    margin-top: 0px;
+}
+
+.logo {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.logo img {
+    padding-right: 4px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.navbar li {
+    float: left;
+    padding-right: 24px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fdc000;
+}
+
+.navbar li a:hover {
+    color: rgb(211, 211, 211);
+}
+
+.navbar #navhome a {
+    color: #FFFF55;
+}
+
+.navbar #navdownload a {
+    color: #FF55FF;
+}
+
+.navbar #navdocs a {
+    color: rgb(0, 255, 255);
+}
+
+.navbar #navgit a {
+    color: #FF5555;
+}
+
+.navbar #navdonate a {
+    color: #55FF55;
+}
+
+.navbar #navcontact a {
+    color: #5555FF;
+}
+
+.footer {
+    text-align: center;
+    color: rgb(138, 138, 138);
+}
+
+hr {
+    border-style: solid;
+    border-bottom: 1px;
+}
