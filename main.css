@@ -92,3 +92,21 @@ hr {
     border-style: solid;
     border-bottom: 1px;
 }
+
+a {
+    color: rgb(0, 255, 255);
+}
+
+a:visited {
+    color: #5555FF;
+}
+
+.banner-red {
+    background-color: #f44336;
+    color: white;
+    padding: 8px;
+}
+
+.banner-red p {
+    margin: 4px;
+}
