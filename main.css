@@ -110,3 +110,11 @@ a:visited {
 .banner-red p {
     margin: 4px;
 }
+
+.side-image {
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: auto;
+}
